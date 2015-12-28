@@ -177,7 +177,6 @@
         DetailViewController *push_view = segue.destinationViewController;
         push_view.photo_reference = arr_Photo[indexPath.row];
         push_view.link_detail = arr_Detail_link[indexPath.row];
-        //push_view.lbl_test.text = self.test_arr[indexPath.row];
     }
     
 }
